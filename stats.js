@@ -1,3 +1,4 @@
-chrome.storage.sync.get(['age', 'packPrice', 'smokesPerDay'], function(value) {
-    console.log(value.age + " " + value.packPrice + " " + value.smokesPerDay);
+chrome.storage.sync.get(['dollarsPerYear', 'minutesPerYear'], function(value) {
+    document.getElementById("dollarsPerYear").innerHTML= "You spend " + value.dollarsPerYear + "dollars per year";
+    document.getElementById("minutesPerYear").innerHTML = "You lose" + value.minutesPerYear + "minutes per year";
 });
