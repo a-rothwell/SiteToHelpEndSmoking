@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("../img/Optimized-ChoicesBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

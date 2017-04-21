@@ -1,8 +1,11 @@
 document.getElementById("advance").addEventListener("click", myFunction);
 
 function myFunction() {
-    window.location.href = 'landing.html';
+  window.location.href = 'landing.html';
 };
+
+var snd = new Audio("../media/bensound-energy.mp3"); // buffers automatically when created
+snd.play();
 
 $('.count').each(function () {
     $(this).prop('Counter',14845000).animate({

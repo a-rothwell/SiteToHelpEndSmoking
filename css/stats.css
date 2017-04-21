@@ -3,78 +3,10 @@ body {
    margin:0;
    padding:0;
    height:100%;
-   background-image: url("../img/clockThreeBackground.jpg");
+   background-image: url("../img/Optimized-clockThreeBackground.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
-}
-#container {
-   min-height:100%;
-   position:relative;
-   font-size: 120%;
-   font-weight: bold;
-}
-#header {
-   background:#FFFFFF;
-   padding:10px;
-}
-#body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-}
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height: 70px;   /* Height of the footer */
-   background:#4285f4;
-}
-#gamesList{
-  float: left;
-  padding: 5px;
-}
-#statistics{
-clear: left;
-
-}
-.button {
-	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
-	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
-	box-shadow:inset 0px -3px 7px 0px #29bbff;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
-	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
-	background-color:#123456;
-	-moz-border-radius:22px;
-	-webkit-border-radius:22px;
-	border-radius:22px;
-	border:1px solid #0b0e07;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	padding:9px 23px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #263666;
-}
-.button:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
-	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
-	background-color:#123456;
-}
-.button:active {
-	position:relative;
-	top:1px;
 }
 h1{
   color: black;

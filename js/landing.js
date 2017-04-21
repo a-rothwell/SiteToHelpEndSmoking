@@ -1,5 +1,4 @@
 document.getElementById("next").addEventListener("click", myFunction);
-
 function myFunction() {
 
     chrome.storage.sync.set({
@@ -14,4 +13,7 @@ function myFunction() {
         'dollarsPerYear': (document.getElementById("smokesPerDay").value / 20) * 365 * document.getElementById("packPrice").value
     });
     window.location.href = '../stats.html';
+
 }
+var snd = new Audio("../media/City_Centre-Hopeinawe-377331566.mp3"); // buffers automatically when created
+snd.play();
