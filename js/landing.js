@@ -13,5 +13,5 @@ function myFunction() {
         'packsPerYear': (document.getElementById("smokesPerDay").value / 20) * 365,
         'dollarsPerYear': (document.getElementById("smokesPerDay").value / 20) * 365 * document.getElementById("packPrice").value
     });
-    window.location.href = 'stats.html';
+    window.location.href = '../stats.html';
 }
