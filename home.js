@@ -5,10 +5,10 @@ function myFunction() {
 };
 
 $('.count').each(function () {
-    $(this).prop('Counter',11500000).animate({
+    $(this).prop('Counter',14845000).animate({
         Counter: $(this).text()
     }, {
-        duration: 120000,
+        duration: 120000000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));
