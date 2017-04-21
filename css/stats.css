@@ -3,7 +3,7 @@ body {
    margin:0;
    padding:0;
    height:100%;
-   /*background-image: url("");*/
+   background-image: url("../img/clockThreeBackground.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
@@ -82,8 +82,8 @@ h1{
 .card {
   box-sizing: border-box;
   position: absolute;
-  top: 20%;
-  left: 40%;
+  top: 30%;
+  left: 35%;
   border-radius: 25px;
   padding: 20px;
   background-color: white;
