@@ -1,4 +1,5 @@
 document.getElementById("next").addEventListener("click", myFunction);
+
 function myFunction() {
 
     chrome.storage.sync.set({
