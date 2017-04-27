@@ -7,4 +7,9 @@ function game() {
 
 function submit() {
     document.getElementById("reasons quit").innerHTML += document.getElementById("reason").value;
+    disable();
+}
+
+function disable(){
+  document.getElementById('submit').setAttribute("disabled", "disabled");
 }

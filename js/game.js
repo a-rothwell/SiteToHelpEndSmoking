@@ -10,7 +10,7 @@ x.style.display = 'none';
 
 function update() {
     chrome.storage.sync.get(['smokesPerDay', 'image', 'link'], function(value) {
-        var cigs = parseInt(value.smokesPerDay - document.getElementById("dailyCigs").value);
+        var cigs = parseInt((1+value.smokesPerDay) - document.getElementById("dailyCigs").value);
         var currentPercent = parseInt((document.getElementById("percent").value));
         var totalCigs = parseInt(currentPercent) - parseInt(cigs);
         document.getElementById("percent").value = parseInt(totalCigs);

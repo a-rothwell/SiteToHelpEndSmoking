@@ -10,7 +10,7 @@ function dog() {
 
 function fam() {
     chrome.storage.sync.set({
-        'image': "img/grandparents.jpeg"
-        'link': "http://finance.zacks.com/eight-types-saving-investment-options-1512.html",
+        'image': "img/grandparents.jpeg",
+        'link': "http://finance.zacks.com/eight-types-saving-investment-options-1512.html"
     });
 }

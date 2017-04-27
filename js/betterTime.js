@@ -11,6 +11,6 @@ function lang() {
 function fit() {
     chrome.storage.sync.set({
         'image': "img/fitness.jpg",
-        'link': "http://www.muscleandfitness.com/workouts/workout-routines/complete-mf-beginners-training-guide-0",
+        'link': "http://www.muscleandfitness.com/workouts/workout-routines/complete-mf-beginners-training-guide-0"
     });
 }
